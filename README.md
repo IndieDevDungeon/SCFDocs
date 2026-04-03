@@ -183,7 +183,7 @@ Each AI plane runs a three-state machine managed in `FlightController.aiUpdate()
        │                                  too close OR
        │                              engage timer expired
        │                                             │
-       │         break-off timer expired     ┌────────▼────────┐
+       │         break-off timer expired     ┌───────▼─────────┐
        └──────────────────────────────────── │    BreakOff     │
                                              └─────────────────┘
 ```
